@@ -42,3 +42,45 @@ nav{
     margin: auto;
     border: 3px dotted black;
 }
+
+section{
+    /* width: 100%; */
+    height: 500px;
+}
+
+.grey{
+    background-color: #D3D3D3;
+}
+
+.max{
+    max-width: 1000px;
+    height: 100%;
+    margin-inline: auto;
+    padding: 20px 0;
+}
+
+.max-grey{
+    flex-direction: row-reverse;
+    max-width: 1000px;
+    height: 100%;
+    margin-inline: auto;
+    padding: 20px 0
+}
+
+.content1{
+    height: 100%;
+    background-color: #1E90FF;
+    flex: 0 1 70%;
+}
+
+.content2{
+    height: 100%;
+    background-color: #FFC0CB;
+    flex: 0 1 30%;
+}
+
+.content-green{
+    background-color: #228B22;
+    height: 100%;
+    flex: 0 1 100%;
+}
