@@ -84,3 +84,45 @@ section{
     height: 100%;
     flex: 0 1 100%;
 }
+
+footer{
+    background-color: #23272A;
+    height: 500px;
+}
+
+.container-max {
+    display: flex;
+    height: 90%;
+    max-width: 1000px;;
+    margin-inline: auto ;
+    padding: 20px 0;
+    border: 1px solid black;
+}
+
+.pink{
+    background-color: #F08080;
+    flex: 0 1 30%;
+}
+
+.cyan{
+    background-color: #20B2AA;
+    flex: 0 1 17.5%;
+    border: 1px solid black;
+}
+
+.container-min{
+    display: flex;
+    height: 10%;
+    max-width: 1000px;;
+    margin-inline: auto ;
+    padding: 20px 0;
+    /* border: 1px solid black; */
+}
+
+.box-bottom{
+    height: 30px;
+    width: 1000px;
+    background-color: #7FFFD4;
+    margin-inline: auto;
+    align-items: flex-end;
+}
