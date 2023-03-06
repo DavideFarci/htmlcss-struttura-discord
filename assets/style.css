@@ -79,6 +79,11 @@ section{
     flex: 0 1 30%;
 }
 
+.grey-big{
+    height: 800px;
+    background-color: #D3D3D3;
+}
+
 .content-green{
     background-color: #228B22;
     height: 100%;
@@ -87,12 +92,12 @@ section{
 
 footer{
     background-color: #23272A;
-    height: 500px;
+    height: 400px;
 }
 
 .container-max {
     display: flex;
-    height: 90%;
+    height: 85%;
     max-width: 1000px;;
     margin-inline: auto ;
     padding: 20px 0;
@@ -112,17 +117,15 @@ footer{
 
 .container-min{
     display: flex;
-    height: 10%;
+    height: 15%;
     max-width: 1000px;;
     margin-inline: auto ;
-    padding: 20px 0;
-    /* border: 1px solid black; */
+    align-items: flex-end;
 }
 
 .box-bottom{
-    height: 30px;
+    height: 35px;
     width: 1000px;
     background-color: #7FFFD4;
     margin-inline: auto;
-    align-items: flex-end;
 }
